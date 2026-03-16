@@ -133,3 +133,5 @@ dkms.conf
 # Don't ignore go.mod and go.sum files
 !go.mod
 !go.sum
+
+.idea
