@@ -37,7 +37,7 @@ func square(inp <-chan int) <-chan int {
 func main() {
 	if len(os.Args) < 3 {
 		fmt.Println("Передайте аргументы K и N при вызове программы.")
-		fmt.Println("Пример: go run main.go 2 5")
+		fmt.Println("Пример: go run lru.go 2 5")
 		return
 	}
 
