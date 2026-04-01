@@ -11,7 +11,8 @@ import (
 func main() {
 	if len(os.Args) < 2 {
 		fmt.Println("Передайте аргумент K")
-		fmt.Println("Пример: go run main.go 2")
+		fmt.Println("Пример: go run lru.go 2")
+		return
 	}
 
 	kArg, err := strconv.ParseUint(os.Args[1], 10, 32)
