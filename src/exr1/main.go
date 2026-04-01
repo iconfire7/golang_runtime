@@ -21,7 +21,7 @@ func main() {
 
 	if *n <= 0 || *m < 0 {
 		fmt.Println("Ошибка: N должно быть > 0, M должно быть >= 0")
-		fmt.Println("Пример запуска: go run main.go -n=5 -m=1000")
+		fmt.Println("Пример запуска: go run lru.go -n=5 -m=1000")
 		return
 	}
 
